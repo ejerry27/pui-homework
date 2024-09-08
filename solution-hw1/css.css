@@ -2,12 +2,19 @@
     text-align: center;
 }
 #prod{
-    display: inline;
-    font-weight: bold;
-    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+  
 
 }
+#prod:hover{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    background-color: yellow;
+    
 
+}
 .maincontainer{
    
     display: flex;
@@ -89,12 +96,14 @@
 #remove{
     font-weight: bold;
     font-size: smaller;
+    text-decoration: underline;
 }
-#cart1{
-    display: inline;
-    font-weight: bold;
-    background-color: yellow;
+.total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 }
-.checkout{
-    font-size: x-small;
+#checkoutline{
+    width: 200px;
 }
