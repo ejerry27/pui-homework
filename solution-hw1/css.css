@@ -1,0 +1,100 @@
+.heading{
+    text-align: center;
+}
+#prod{
+    display: inline;
+    font-weight: bold;
+    background-color: yellow;
+
+}
+
+.maincontainer{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+#imgs{
+    border: 2px solid;
+}
+.prod1{
+    
+    padding: 5px;
+    
+}
+.prod1:hover{
+    background-color: yellow;
+    font-weight: bold;
+
+}
+
+.prod2{
+    padding: 5px;
+}
+.prod2:hover{
+    background-color: yellow;
+    font-weight: bold;
+
+}
+
+.prod3{
+    padding: 5px;
+}
+.prod3:hover{
+    background-color: yellow;
+    font-weight: bold;
+
+}
+.prod4{
+    padding: 5px;
+}
+.prod4:hover{
+    background-color: yellow;
+    font-weight: bold;
+
+}
+.prod5{
+    padding: 5px;
+}
+.prod5:hover{
+    background-color: yellow;
+    font-weight: bold;
+
+}
+.prod6{
+    padding: 5px;
+}
+.prod6:hover{
+    background-color: yellow;
+    font-weight: bold;
+
+}
+
+.orgcr{
+    width: 340px;
+    height: 500 px;
+    
+}
+#headerdet{
+    text-align: center;
+}
+.contentorgcr{
+    width: 200px;
+    height: 300px;
+}
+#cost1{
+    font-weight: bold;
+}
+#remove{
+    font-weight: bold;
+    font-size: smaller;
+}
+#cart1{
+    display: inline;
+    font-weight: bold;
+    background-color: yellow;
+}
+.checkout{
+    font-size: x-small;
+}
