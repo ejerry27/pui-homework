@@ -1,6 +1,12 @@
+/* 
+The following css code is for the product gallery page with a few of them that applies to other pages as well
+ */
+
+
 .heading{
     text-align: center;
 }
+/* this is the cart and product normal and hover state below */
 #prod{
     display: flex;
     flex-direction: column;
@@ -15,6 +21,7 @@
     
 
 }
+/* the main content will be enclosed in flex box  */
 .maincontainer{
    
     display: flex;
@@ -25,64 +32,45 @@
 #imgs{
     border: 2px solid;
 }
-.prod1{
+/* added padding to every product */
+.prod1, .prod2,.prod3,.prod4,.prod5,.prod6{
     
     padding: 5px;
     
 }
-.prod1:hover{
+ /* the hover state of every product  */
+.prod1:hover, .prod2:hover,.prod3:hover, .prod4:hover,.prod5:hover,.prod6:hover{
     background-color: yellow;
     font-weight: bold;
 
 }
 
-.prod2{
-    padding: 5px;
-}
-.prod2:hover{
-    background-color: yellow;
-    font-weight: bold;
-
-}
-
-.prod3{
-    padding: 5px;
-}
-.prod3:hover{
-    background-color: yellow;
-    font-weight: bold;
-
-}
-.prod4{
-    padding: 5px;
-}
-.prod4:hover{
-    background-color: yellow;
-    font-weight: bold;
-
-}
-.prod5{
-    padding: 5px;
-}
-.prod5:hover{
-    background-color: yellow;
-    font-weight: bold;
-
-}
-.prod6{
-    padding: 5px;
-}
-.prod6:hover{
-    background-color: yellow;
-    font-weight: bold;
-
-}
+/* this is for the product detail page where it aligns the items accordingly and ensures that the content is in a flex box */
 
 .orgcr{
-    width: 340px;
-    height: 500 px;
     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+
+
+} 
+.contentorgcr{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;    
+    align-items: center; */
+
 }
+#addtocart:hover{
+    background-color: yellow;
+
+}
+
+/* the following are the css related to shopping cart specific items like changing the color of the button in hover state,
+ having a line at the bottom and also adding the underline and bold to the "remove" text
+ */
 #headerdet{
     text-align: center;
 }
@@ -90,6 +78,7 @@
     width: 200px;
     height: 300px;
 }
+
 #cost1{
     font-weight: bold;
 }
@@ -97,6 +86,10 @@
     font-weight: bold;
     font-size: smaller;
     text-decoration: underline;
+}
+.checkoutcartcont{
+    text-align: center;
+
 }
 .total{
     display: flex;
@@ -106,4 +99,10 @@
 }
 #checkoutline{
     width: 200px;
+    
+}
+
+#checkoutbutton:hover{
+    background-color: yellow;
+
 }
