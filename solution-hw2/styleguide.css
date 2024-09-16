@@ -117,6 +117,7 @@ body{
     
     
  }
+ /* shopping cart */
 
  .shopping-cart-maincontainer{
    
@@ -135,24 +136,8 @@ body{
     padding-left: 350px;
     padding-top: 100px;
  }
-  /* .checkoutcartcont{
-    padding: 20px;
-    flex-wrap:wrap;
-    
+ 
 
- }  */
-   
- /* .first-row{
-    display: flex;
-    flex-direction: row;
-
- }
- .second-row{
-    display:flex;
-    flex-direction: row;
- } */
-
- /* shopping cart  */
   #title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
@@ -171,18 +156,19 @@ body{
 }
 .cost{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* padding-left: 300px; */
+   
     font-size: large;
    
  
 }
 .cost1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* padding-left: 180px; */
+
     font-size: large;
    
  
 }
+/* checkout/shopping cart  */
 .cost-org-cinn-roll{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -209,8 +195,7 @@ body{
 .total-cost{
     display: flex;
     
-    /* flex-wrap:nowrap; */
-    /* align-items: center; */
+   
     justify-content:space-evenly;
 
 }
@@ -239,39 +224,3 @@ body{
     background-color: yellow;
 }
 
-
-/* .total-cost{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-    align-items: center;
-    /* padding-right: 100px; */
-   
-
-/* .price{
-    display: flex;
-    align-items: flex-end; 
-    /* justify-content: flex-end; */
-    
-    /* font-size: large;
-    
-    
-}  */
- 
-
-/* .total-cost{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 100px;
-    
-}
-.price{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-
-    font-size: large;
-    
-} */
