@@ -117,6 +117,7 @@ body{
     
     
  }
+/*shopping cart  */
 
  .shopping-cart-maincontainer{
    
@@ -136,7 +137,7 @@ body{
     padding-top: 100px;
  }
 
- /* shopping cart  */
+ 
   #title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
@@ -155,14 +156,14 @@ body{
 }
 .cost{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* padding-left: 300px; */
+ 
     font-size: large;
    
  
 }
 .cost1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* padding-left: 180px; */
+
     font-size: large;
    
  
@@ -192,9 +193,6 @@ body{
 
 .total-cost{
     display: flex;
-    
-    /* flex-wrap:nowrap; */
-    /* align-items: center; */
     justify-content:space-evenly;
 
 }
