@@ -1,6 +1,3 @@
-
-
-
 // being able to access the respective queries in HTML file
   const glazeselect=document.querySelector("#glazingOptions");
   const packselect=document.querySelector("#pack");
@@ -63,7 +60,6 @@
     options.textContent=glazingpick.name;
     //apending the item to the drop down list 
     glazeselect.appendChild(options);
-
   }
   //function to calculate the price by taking the values of pack and glazing
   function calculateTotalPrice(){
