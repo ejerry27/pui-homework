@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="../solution-hw3/styleguide.css" type="text/css" />
+  <script src="../solution-hw3/hwjs.js" defer></script>
+  
+  <body>
+    <!-- header logo and nav bar  -->
+    <div class="header">
+      <div class="logo">
+        <img src="../assets/logo/logo-01.svg" width=400px>
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li id="prod"><a href ="../solution-hw2/product-gallery-hw2.html">PRODUCTS</a></li>
+          <li id="prod"><a href="../solution-hw2/shopping cart.html">CART</a></li>
+        </ul>
+      </div>
+     
+    </div>
+    <hr id="first-line">
+    <!-- main content -->
+    <p id="headerdet">Original Cinnamon Roll</p>
+   
+    <div class="side-by-side">
+      <div class="org-cinn-roll-pic">
+        <img id="imgs" src="../assets/products/original-cinnamon-roll.jpg" width= 600px height=600px >
+      </div>
+         <!-- customization part  -->
+        <div class="contentorgcr">
+          <p> Customize our delicious, handmade cinnamon roll to your liking! </p>
+          <p> Glazing:</p>
+          <select id="glazingOptions" onchange="glazingChange(this)">
+            <option value=""></option>
+
+          </select>
+         
+          <p>Pack Size:</p>
+          <select id="pack" onchange="calculateTotalPrice()">
+            <option value=""></option>
+            
+          </select>
+          <div class ="cost"> 
+            <p id="cost1">$<span id="totalprice">0.00 </span> <button id="addtocart"> <a href="../solution-hw2/shopping cart.html" >Add to cart</a></button></p>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
