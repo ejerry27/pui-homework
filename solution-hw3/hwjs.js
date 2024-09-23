@@ -6,8 +6,6 @@
   const packselect=document.querySelector("#pack");
   const totalpriceSpan=document.querySelector("#totalprice");
   const basePrice=2.49;
-
-
   //Alloptions is the array for all the gamzing available
   let Alloptions=[
     {
@@ -56,7 +54,6 @@
     options.value=pack.price;
     options.textContent=pack.name;
     packselect.appendChild(options);
-
   }
   for (let i =0;i<Alloptions.length;i++){
     const glazingpick=Alloptions[i];
@@ -66,7 +63,6 @@
     options.textContent=glazingpick.name;
     //apending the item to the drop down list 
     glazeselect.appendChild(options);
-
 
   }
   //function to calculate the price by taking the values of pack and glazing
