@@ -100,7 +100,6 @@ body{
     font-size: large;
    
 }
-
 #cost1{
     font-weight: bold;
 }
@@ -133,8 +132,6 @@ body{
 }
 #addtocart:hover{
     background-color: yellow;
-   
-
 }
 #addtocart{
     height: 50px;
