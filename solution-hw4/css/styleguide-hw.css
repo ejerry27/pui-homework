@@ -1,0 +1,230 @@
+
+.heading{
+    text-align: center;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+ /* the logo and the nav bar  */
+
+.header{
+    display:flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem;
+}
+.nav-bar{
+    display: flex;
+    margin: 20px;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar ul li{
+    margin: 0 1rem;
+}
+#first-line{
+    margin-left: 400px;
+    margin-top: -50px;
+    border: 2px solid;
+
+    
+ }
+ /* the main content will be enclosed in flex box  */
+ .maincontainer{
+   
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+} 
+#title-product-gallery{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 200px;
+   
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ .product-name{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+ }
+#prod-name{
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ .product-name:hover{ 
+    padding: 5px;
+    background-color: yellow;
+    font-weight: bold;  
+ }
+
+#prod:hover{
+    
+    font-weight: bold;
+    background-color: yellow;
+}
+
+/* PRODUCT DETAIL PAGE */
+
+#headerdet{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-left: 400px;
+    padding-bottom: 100px;
+}
+.side-by-side{
+    display:flex;
+    flex-direction: row;
+    padding-right: 150px;
+    padding-inline: 150px;
+    
+}
+.contentorgcr{
+    display:inline;
+    padding-left: 100px;
+    font-size: large;
+   
+}
+
+#cost1{
+    font-weight: bold;
+}
+
+.emptyspaceone{
+    height: 30px;
+}
+.emptyspacetwo{
+    height:130px;
+}
+.spacesinbetween{
+    width: 20px;
+}
+#imgs{
+    border: 2px solid;
+}
+/* additional styling for the dropdown */
+#pack{
+    display: flex;
+    width: 135px;
+    height: 20px;
+    line-height: 3px;
+}
+#glazingOptions{
+    height: 20px;
+}
+
+#headerfordetail{
+    font-size: x-large;
+}
+#addtocart:hover{
+    background-color: yellow;
+   
+
+}
+#addtocart{
+    height: 50px;
+}
+/*SHOPPING CART STYLING*/
+ .shopping-cart-maincontainer{
+   
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+ } 
+ .imgcont{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 350px;
+    padding-top: 100px;
+ }
+
+  #title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: 400px;
+    font-size: x-large;
+    padding-top: 50px;
+    
+  }
+.content{
+    padding-left: 100px;
+    display:flex;
+    align-items: right;
+
+}
+.cost{
+    font-size: large;
+    display: flex;
+    flex-direction: row;   
+ 
+}
+
+/* checkout along with checkout button */
+.cost-org-cinn-roll{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    font-size: large;
+    align-items: flex-end;
+   
+}
+#checkout{
+    font-size: x-large;
+}
+#remove{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#checkout-line{
+    margin-left: 350px;
+    margin-right: 100px;
+}
+.empty-space2{
+    width:100px;
+}
+
+.total-cost{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.total-text{
+    padding-left: 490px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.price{
+    
+    align-items: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.empty-space{
+    width: 200px;
+
+}
+.checkout-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 90px;
+  
+}
+.checkout-button :hover{
+    background-color: yellow;
+}
