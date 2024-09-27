@@ -147,7 +147,6 @@ const addToCartButton = document.getElementById('addtocart');
 // if the button is present in the page then the addtoarray function takes place
 if(addToCartButton){
   addToCartButton.addEventListener('click', addtoarray);
-
 }
       
  
