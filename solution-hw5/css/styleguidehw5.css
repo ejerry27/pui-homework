@@ -1,0 +1,239 @@
+.heading{
+    text-align: center;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ /* the logo and the nav bar  */
+
+.header{
+    display:flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem;
+}
+.nav-bar{
+    display: flex;
+    margin: 20px;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar ul li{
+    margin: 0 1rem;
+}
+#first-line{
+    margin-left: 400px;
+    margin-top: -50px;
+    border: 2px solid;
+    
+    
+    
+ }
+ #headerdet{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-left: 400px;
+    padding-bottom: 100px;
+
+    
+} 
+#prod:hover{
+    
+    font-weight: bold;
+    background-color: yellow;
+}
+
+
+#title-product-gallery{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 200px;
+   
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.side-by-side{
+    display:flex;
+    flex-direction: row;
+    padding-right: 150px;
+    padding-inline: 150px;
+    
+}
+.contentorgcr{
+    display:inline;
+    padding-left: 100px;
+    font-size: large;
+   
+}
+#pack{
+    display:flex;
+    
+}
+#cost1{
+    font-weight: bold;
+}
+#addtocart:hover{
+    background-color: yellow;
+
+}
+#imgs{
+    border: 2px solid;
+}
+/* the main content will be enclosed in flex box  */
+ .maincontainer{
+   
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+} 
+
+/* added padding to every product */
+ .prod1, .prod2,.prod3,.prod4,.prod5,.prod6{ 
+    padding: 5px;
+ }
+#prod-name{
+    text-decoration: underline;
+}
+
+ .prod1:hover, .prod2:hover,.prod3:hover,.prod4:hover,.prod5:hover,.prod6:hover{ 
+    padding: 5px;
+    background-color: yellow;
+    font-weight: bold;
+
+    
+    
+    
+ }
+ /* shopping cart */
+ #title-shopping-cart{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ .shopping-cart-maincontainer{
+   
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+  
+ } 
+ .imgcont{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 350px;
+    padding-top: 100px;
+ }
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 100px;
+    font-size: large;
+    display:flex;
+    flex-direction: column;
+    align-items: right;
+
+}
+
+.cost-roll{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    font-size: large;
+    align-items: flex-end;
+   
+}
+#checkout{
+    font-size: x-large;
+}
+#remove{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#checkout-line{
+    margin-left: 350px;
+    margin-right: 100px;
+}
+.empty-space2{
+    width:100px;
+}
+
+
+ .total-cost{
+    padding-left: 650px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+  
+ }
+
+
+ 
+.total-text{
+
+    flex-direction: row;
+    align-items:flex-end;
+
+    font-size: large;
+}
+
+
+.number-class{
+
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+
+    justify-content: flex-end;
+    padding-right: 120px;
+    padding-left: 10px;
+
+}
+#price{
+
+
+    display: flex;
+
+    font-size: large;
+    align-items: flex-end;
+
+}
+.empty-space{ 
+    width: 310px;
+
+}
+.empty-space4{
+    height: 50px;
+}
+.empty-space5{
+    height: 50px;
+}
+.checkout-button{
+    display: flex;
+    align-items:  right;
+    flex-direction: column;
+    /* padding-right: 110px;  */
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  
+}
+.checkout-button :hover{
+    background-color: yellow;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items:  right;
+    flex-direction: column;
+}
