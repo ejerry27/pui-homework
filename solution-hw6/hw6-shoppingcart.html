@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="../solution-hw6/hw6.css" type="text/css" />
+    
+    <script src="../solution-hw6/js/onlyrollinfo.js" defer></script>
+    <script src ="../solution-hw6/js/shoppingcartrial.js" defer></script>
+   
+    <script src="../solution-hw6/js/storage.js" defer></script>
+
+    
+    <body>
+      <div class="header">
+        <div class="logo">
+          <img src="../assets/logo/logo-01.svg" width=400px>
+        </div>
+        <div class="nav-bar">
+          <ul>
+                  <li id="prod"><a href ="../solution-hw6/hw6-productgallery.html">PRODUCTS</a></li> 
+                 <li id="prod"><a href="../solution-hw6/hw6-shoppingcart.html">CART</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr id="first-line">
+      <p id="title-shopping-cart"> Our hand-made cinnamon rolls</p>
+      <div id="shopping-cart-frame">
+        <template id="shopping-cart-temp">
+          <div class="shopping-cart-maincontainer">
+            <!--image container -->
+            <div class="imgcont">
+              <img id="imgs"  width= 200px height=200px >
+              <br>
+              
+              <p id="remove"> Remove</p>
+            </div>
+            <div class="content">
+              <p id="roll-title"> title roll</p>
+              <p id="glazing-type">glazing</p>
+              <p id="pack-size">size</p>
+            </div>
+            <div class="empty-space2">     
+            </div>
+            <div class="cost-roll">
+              <p id="calc-price">$cost</p>
+            </div>
+          </div>
+        </template>
+      </div>
+      <div class="empty-space4">
+        
+      </div>
+      <hr id="checkout-line">
+
+      <div class="total-cost">
+        <div class="total-text">
+          <p>Total</p>
+        </div>
+     
+        <div class="number-class">
+            <p id="price">$</p>
+            <div class='checkout-button'>
+              <button>Checkout</button>
+            </div>
+        </div>
+      </div>
+  
+    </body>
+</html>

@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="../solution-hw6/hw6.css" type="text/css" />
+  <script src="../solution-hw6/js/onlyrollinfo.js" defer></script>
+  <script src ="../solution-hw6/js/shoppingcartrial.js" defer></script>
+  <script src ="../solution-hw6/js/combinedjs.js" defer> </script>
+  <script src="../solution-hw6/js/storage.js" defer></script>
+
+  
+  <body>
+    <!-- header logo and nav bar  -->
+    <div class="header">
+      <div class="logo">
+        <img src="../assets/logo/logo-01.svg" width=400px > <a href="../solution-hw4/product-gallery.html"></a>
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li id="prod"><a href ="../solution-hw6/hw6-productgallery.html">PRODUCTS</a></li>
+          <li id="prod"><a href="../solution-hw6/hw6-shoppingcart.html">CART</a></li>
+        </ul>
+      </div>
+     
+    </div>
+    <hr id="first-line">
+    <!-- main content -->
+    <p id="headerdet">Roll title </p>
+   
+    <div class="side-by-side">
+      <div class="org-cinn-roll-pic">
+        <img id="imgs"  width= 600px height=600px >
+      </div>
+         <!-- customization part  -->
+        <div class="contentorgcr">
+          <p id="headerfordetail"> Customize our delicious, handmade cinnamon roll to your liking! </p>
+          <div class="emptyspaceone">
+
+          </div>
+          <!-- dynamically populating the drop down for glazing options -->
+          <p id="glazinglabel"> Glazing:</p>
+          <select id="glazingOptions" onchange="glazingChange(this)"></select>
+         <!-- dynamically populating the pack size -->
+          <p id="packlabel">Pack Size:</p>
+          <select id="pack" onchange="calculateTotalPrice()">
+            <!-- <option value=""></option> -->
+            
+          </select>
+          <div class="emptyspacetwo">
+          </div>
+          <div class ="cost">
+            <!-- the cost part gets populated here -->
+            <p id="cost1"><span id="totalprice">$ 0.00 </span> </p>
+            <div class="spacesinbetween">
+            </div>
+            <!-- add to cart button -->
+            <button id="addtocart" >Add to Cart</button>
+          </div>
+        </div>
+    </div>
+      
+    
+
+
+
+
+
+  </body>
+</html>
