@@ -59,8 +59,4 @@ document.addEventListener('DOMContentLoaded',function(){
         updateTotalPrice();
         saveToLocalStorage();
     }
-
-    // for (const rollelement of newroll){
-    //     createElement(rollelement);
-    // }
 });

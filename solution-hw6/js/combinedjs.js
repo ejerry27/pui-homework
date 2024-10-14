@@ -64,7 +64,6 @@ document.addEventListener('DOMContentLoaded',function(){
         rollSet.add(newrollforarray);
         console.log(rollSet);
         saveToLocalStorage();
-        // createElement(rollSet);
         
         
     }
@@ -78,7 +77,3 @@ document.addEventListener('DOMContentLoaded',function(){
     }
     
 });
- // cartarray.push(newrollforarray);
-        // console.log(cartarray)
-        // const newroll=addnewrolltoset(newrollforarray);
-        // createElement(newroll);
