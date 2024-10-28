@@ -4,7 +4,10 @@ Personal Portfolio
 The main idea of this portfolio is to showcase my ux projects, graphic design projects to potential recruiters 
 I wanted this portfolio to be of three main pages and I’ll also plan to show one of my projects for this final project. The three main pages include: home, about and project page. I want to convey my design personality through this portfolio
 I plan to make this more engaging by adding animations and I want to make it more artistic by adding my personal touch. I want to draw some of the icons on my portfolio. I plan to make this more accessible by adding alt text for images, having a clear HTML structure, and color contrast to ensure readability.
-![Screenshot 2024-10-28 at 6 23 28 PM](https://github.com/user-attachments/assets/3552952a-c255-42c7-aba2-249d7c85acf2)
+
+![Screenshot 2024-10-28 at 6 23 28 PM](https://github.com/user-attachments/assets/124743e5-46da-4f58-88ac-1bf0a6f33b35)
+
+
 
 
 Idea 2
@@ -14,7 +17,10 @@ I found this on youtube
 Most of the time, when we see really good food on youtube, we wonder if it is actually worth the hype. This website will allow users to add/review recipes that they found on Youtube or on Youtube shorts. Give honest feedback about the recipe. They can share a small blurb and add a photo of what they made.
 I want to make this interactive by making interactions of how users can add a post/review and then it will be posted and having cool transitions. 
 I plan to make it accessible by using color contrast so that there is an understanding between text and images
-<img width="243" alt="Screenshot 2024-10-28 at 6 25 53 PM" src="https://github.com/user-attachments/assets/ddfae43d-9538-4488-a09e-81fe1525e62d">
+
+
+<img width="244" alt="Screenshot 2024-10-28 at 6 28 07 PM" src="https://github.com/user-attachments/assets/72aed7e8-1ff7-43c3-80d7-8c3aedc7bef8">
+
 
 
 Idea 3
