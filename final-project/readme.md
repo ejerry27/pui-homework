@@ -7,8 +7,6 @@ I plan to make this more engaging by adding animations and I want to make it mor
 ![Screenshot 2024-10-28 at 6 23 28 PM](https://github.com/user-attachments/assets/3552952a-c255-42c7-aba2-249d7c85acf2)
 
 
-
-
 Idea 2
 
 I found this on youtube 
