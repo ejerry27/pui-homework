@@ -83,20 +83,20 @@ There was some feedback about whitespace and how sometimes it might be cluttered
 
 My milestones are below
 Milestone 1: Basic structure of the portfolio
-- Set up the basic HTML structure for the portfolio 
-- This milestone also includes selecting the how many pages I want to have in my portfolio
-- Start adding basic content into the project/case study specific page
-- Develop navigation menu
+* Set up the basic HTML structure for the portfolio 
+* This milestone also includes selecting the how many pages I want to have in my portfolio
+* Start adding basic content into the project/case study specific page
+* Develop navigation menu
 Milestone 2:  Animations
-- Start working on the animations
-- Implement responsiveness
-- Add my interactive elements to my homepage
-- Conduct a basic round of testing 
-- Make changes based on the feedback 
-Milestone 3: 
-- Finalize the animations and interactions 
-- Ensure that the website is accessible
-- Finalize the responsiveness and fix bugs from the usability testing 
+* Start working on the animations
+* Implement responsiveness
+* Add my interactive elements to my homepage
+* Conduct a basic round of testing
+* Make changes based on the feedback 
+Milestone 3:
+* Finalize the animations and interactions
+* Ensure that the website is accessible
+* Finalize the responsiveness and fix bugs from the usability testing 
 
 Week by week plan 
 Week of Nov 4th-nov 10th: work on milestone1, since this is the first step, this shouldn’t take much time to finish up
