@@ -8,6 +8,7 @@ Motivation for the project is to create a personal portfolio about my work but s
 
 ### *Prototype 1*
 
+<img width="365" alt="prototype1" src="https://github.com/user-attachments/assets/fea9ade1-029d-4d77-aa37-04e32ee474c3">
 
 Here in this prototype I have implemented animations and an animated carousel of my projects along with pictures of the same. The world map at the bottom shows the place that I have lived and those pins will reveal locations when you hover over the pins. There is a drawn photo of me that shows in my element which is baking and cooking but also at the same time showing that I do design 
 Video link: https://youtu.be/fpbJye_JxLM
@@ -15,6 +16,8 @@ Video link: https://youtu.be/fpbJye_JxLM
 Prototype link: https://www.figma.com/proto/j9Kmh8zC0Yr5WAhS68R4VL/fp2?node-id=1-2&node-type=frame&t=RUjsWub0xeH3BrjV-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
 
 ### *Prototype 2*
+<img width="366" alt="Screenshot 2024-11-04 at 9 30 13 PM" src="https://github.com/user-attachments/assets/6995da82-2547-4ca1-be48-fa9070222e72">
+
 
 The prototype for this was the work page, this was another screen of the portfolio. This more about how each project page is going to look like, there will be a progress bar at the top so that users can scroll to know how much more left is there within the page 
 Video:https://youtu.be/a9c79jxrFHI
@@ -56,6 +59,9 @@ There the cake metaphor and the footer added. The projects page is added which i
 
 Video: https://youtu.be/_sIb9gMnDNg
 Prototype:https://www.figma.com/proto/j9Kmh8zC0Yr5WAhS68R4VL/fp2?node-id=104-143&node-type=frame&t=gBs5awDjbGQXTyIl-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=104%3A143
+<img width="265" alt="Screenshot 2024-11-04 at 9 31 13 PM" src="https://github.com/user-attachments/assets/ecf54971-d734-4121-8c98-72e7f2b99cbb">
+<img width="334" alt="Screenshot 2024-11-04 at 9 31 49 PM" src="https://github.com/user-attachments/assets/b3aaae87-aca9-4179-a929-9f276a51082c">
+<img width="357" alt="Screenshot 2024-11-04 at 9 32 32 PM" src="https://github.com/user-attachments/assets/2c05f6ce-a787-4365-a2e4-452a364aa875">
 
 
 ## Feedback Summary
