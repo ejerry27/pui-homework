@@ -27,13 +27,13 @@ prototype:https://www.figma.com/proto/j9Kmh8zC0Yr5WAhS68R4VL/fp2?node-id=19-289&
 
 evaluate with 3 users
 goal: To understand if the flow makes sense and is it possible to understand my design work
-specific task:
+* specific task:
 - ask them to go on the homepage and navigate to one of my projects from the homepage
 questions
 - thoughts on the homepage 
 - what they thought of the flow of the project 
 - the process to get to the project page
-Overall feedback:
+* Overall feedback:
 - They thought that the flow was fine and functional 
 - There was feedback around the colors, they told me that if I wanted to have pastel colors, stick with pastel colors or different shades of the same colors. This is to avoid any inconsistency 
 - There was a comment about having a footer that talks about my contact information and also leading back to the project page
