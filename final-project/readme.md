@@ -87,13 +87,13 @@ Milestone 1: Basic structure of the portfolio
 * This milestone also includes selecting the how many pages I want to have in my portfolio
 * Start adding basic content into the project/case study specific page
 * Develop navigation menu
-Milestone 2:  Animations
+- Milestone 2:  Animations
 * Start working on the animations
 * Implement responsiveness
 * Add my interactive elements to my homepage
 * Conduct a basic round of testing
 * Make changes based on the feedback 
-Milestone 3:
+- Milestone 3:
 * Finalize the animations and interactions
 * Ensure that the website is accessible
 * Finalize the responsiveness and fix bugs from the usability testing 
