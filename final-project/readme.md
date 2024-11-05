@@ -99,21 +99,21 @@ Milestone 1: Basic structure of the portfolio
 * Finalize the responsiveness and fix bugs from the usability testing 
 
 Week by week plan 
-Week of Nov 4th-nov 10th: work on milestone1, since this is the first step, this shouldn’t take much time to finish up
-Week of Nov 11th-nov 17th: milestone 2. This is going to be the challenging week as `I’m` working with libraries and working on the animations
-Nov17th-nov24th: Work on milestone 3. This is going to be extended and is more about finalizing the portfolio and ensuring that everything works smoothly 
-Thanksgiving break
-Dec1-Dec6th: finish up milestone 3
+- Week of Nov 4th-nov 10th: work on milestone1, since this is the first step, this shouldn’t take much time to finish up
+- Week of Nov 11th-nov 17th: milestone 2. This is going to be the challenging week as `I’m` working with libraries and working on the animations
+- Nov17th-nov24th: Work on milestone 3. This is going to be extended and is more about finalizing the portfolio and ensuring that everything works smoothly
+- Thanksgiving break
+- Dec1-Dec6th: finish up milestone 3
 
 
 ### *Libraries and Other Components*
 
 For animation:
 I plan to to use either of the animation js libraries: 	
-anime.js: this is a lightweight animation library that will help me with text animation 
-Popmotion: this helps me to animate text, numbers and colors
-Scrollreveal: to show dynamic interactions with scrolling 
-I want to use Bootstrap for implementing the responsiveness of the screens
+- anime.js: this is a lightweight animation library that will help me with text animation 
+- Popmotion: this helps me to animate text, numbers and colors
+- Scrollreveal: to show dynamic interactions with scrolling 
+- I want to use Bootstrap for implementing the responsiveness of the screens
 
 
 ## Generative AI Use Plan
