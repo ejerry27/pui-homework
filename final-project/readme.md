@@ -21,6 +21,7 @@ Motivation for the project is to create a personal portfolio about my work but s
 
 ### *Prototype 1*
 
+<img width="365" alt="prototype1" src="https://github.com/user-attachments/assets/fea9ade1-029d-4d77-aa37-04e32ee474c3">
 
 Here in this prototype I have implemented animations and an animated carousel of my projects along with pictures of the same. The world map at the bottom shows the place that I have lived and those pins will reveal locations when you hover over the pins. There is a drawn photo of me that shows in my element which is baking and cooking but also at the same time showing that I do design 
 Video link: https://youtu.be/fpbJye_JxLM
@@ -28,6 +29,8 @@ Video link: https://youtu.be/fpbJye_JxLM
 Prototype link: https://www.figma.com/proto/j9Kmh8zC0Yr5WAhS68R4VL/fp2?node-id=1-2&node-type=frame&t=RUjsWub0xeH3BrjV-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
 
 ### *Prototype 2*
+<img width="366" alt="Screenshot 2024-11-04 at 9 30 13 PM" src="https://github.com/user-attachments/assets/6995da82-2547-4ca1-be48-fa9070222e72">
+
 
 The prototype for this was the work page, this was another screen of the portfolio. This more about how each project page is going to look like, there will be a progress bar at the top so that users can scroll to know how much more left is there within the page 
 Video:https://youtu.be/a9c79jxrFHI
@@ -37,13 +40,13 @@ prototype:https://www.figma.com/proto/j9Kmh8zC0Yr5WAhS68R4VL/fp2?node-id=19-289&
 
 evaluate with 3 users
 goal: To understand if the flow makes sense and is it possible to understand my design work
-specific task:
+* specific task:
 - ask them to go on the homepage and navigate to one of my projects from the homepage
 questions
 - thoughts on the homepage 
 - what they thought of the flow of the project 
 - the process to get to the project page
-Overall feedback:
+* Overall feedback:
 - They thought that the flow was fine and functional 
 - There was feedback around the colors, they told me that if I wanted to have pastel colors, stick with pastel colors or different shades of the same colors. This is to avoid any inconsistency 
 - There was a comment about having a footer that talks about my contact information and also leading back to the project page
@@ -69,6 +72,9 @@ There the cake metaphor and the footer added. The projects page is added which i
 
 Video: https://youtu.be/_sIb9gMnDNg
 Prototype:https://www.figma.com/proto/j9Kmh8zC0Yr5WAhS68R4VL/fp2?node-id=104-143&node-type=frame&t=gBs5awDjbGQXTyIl-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=104%3A143
+<img width="265" alt="Screenshot 2024-11-04 at 9 31 13 PM" src="https://github.com/user-attachments/assets/ecf54971-d734-4121-8c98-72e7f2b99cbb">
+<img width="334" alt="Screenshot 2024-11-04 at 9 31 49 PM" src="https://github.com/user-attachments/assets/b3aaae87-aca9-4179-a929-9f276a51082c">
+<img width="357" alt="Screenshot 2024-11-04 at 9 32 32 PM" src="https://github.com/user-attachments/assets/2c05f6ce-a787-4365-a2e4-452a364aa875">
 
 
 ## Feedback Summary
@@ -90,37 +96,37 @@ There was some feedback about whitespace and how sometimes it might be cluttered
 
 My milestones are below
 Milestone 1: Basic structure of the portfolio
-- Set up the basic HTML structure for the portfolio 
-- This milestone also includes selecting the how many pages I want to have in my portfolio
-- Start adding basic content into the project/case study specific page
-- Develop navigation menu
-Milestone 2:  Animations
-- Start working on the animations
-- Implement responsiveness
-- Add my interactive elements to my homepage
-- Conduct a basic round of testing 
-- Make changes based on the feedback 
-Milestone 3: 
-- Finalize the animations and interactions 
-- Ensure that the website is accessible
-- Finalize the responsiveness and fix bugs from the usability testing 
+* Set up the basic HTML structure for the portfolio 
+* This milestone also includes selecting the how many pages I want to have in my portfolio
+* Start adding basic content into the project/case study specific page
+* Develop navigation menu
+- Milestone 2:  Animations
+* Start working on the animations
+* Implement responsiveness
+* Add my interactive elements to my homepage
+* Conduct a basic round of testing
+* Make changes based on the feedback 
+- Milestone 3:
+* Finalize the animations and interactions
+* Ensure that the website is accessible
+* Finalize the responsiveness and fix bugs from the usability testing 
 
 Week by week plan 
-Week of Nov 4th-nov 10th: work on milestone1, since this is the first step, this shouldn’t take much time to finish up
-Week of Nov 11th-nov 17th: milestone 2. This is going to be the challenging week as `I’m` working with libraries and working on the animations
-Nov17th-nov24th: Work on milestone 3. This is going to be extended and is more about finalizing the portfolio and ensuring that everything works smoothly 
-Thanksgiving break
-Dec1-Dec6th: finish up milestone 3
+- Week of Nov 4th-nov 10th: work on milestone1, since this is the first step, this shouldn’t take much time to finish up
+- Week of Nov 11th-nov 17th: milestone 2. This is going to be the challenging week as `I’m` working with libraries and working on the animations
+- Nov17th-nov24th: Work on milestone 3. This is going to be extended and is more about finalizing the portfolio and ensuring that everything works smoothly
+- Thanksgiving break
+- Dec1-Dec6th: finish up milestone 3
 
 
 ### *Libraries and Other Components*
 
 For animation:
 I plan to to use either of the animation js libraries: 	
-anime.js: this is a lightweight animation library that will help me with text animation 
-Popmotion: this helps me to animate text, numbers and colors
-Scrollreveal: to show dynamic interactions with scrolling 
-I want to use Bootstrap for implementing the responsiveness of the screens
+- anime.js: this is a lightweight animation library that will help me with text animation 
+- Popmotion: this helps me to animate text, numbers and colors
+- Scrollreveal: to show dynamic interactions with scrolling 
+- I want to use Bootstrap for implementing the responsiveness of the screens
 
 
 ## Generative AI Use Plan
