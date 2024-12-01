@@ -1,0 +1,10 @@
+document.addEventListener('DOMContentLoaded',()=>{
+    anime({
+        targets:'.card',
+        translateY:[50,0],
+        opacity:[0,1],
+        delay:anime.stagger(500),
+        easing:'easeOutQuad',
+        duration:800,
+    });
+});
