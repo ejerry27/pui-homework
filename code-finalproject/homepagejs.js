@@ -1,6 +1,32 @@
 
 
 // the sentence animation
+document.addEventListener('DOMContentLoaded',function(){
+    var map=L.map('map').setView ([40.728,-74.0060],4);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    var markers=[
+        {lat:40.4259,lng:-86.9081,name: "West Lafayette"},
+        {lat:37.3382,lng:-121.8863,name:"San Jose"},
+        {lat:9.9312, lng:76.2673,name:"Kochi"},
+        {lat: 12.9716, lng:77.5946,name:"Bangalore"},
+        {lat: 41.8781, lng: -87.6298, name: "Chicago"}
+
+    ];
+    markers.forEach(function(marker) {
+        L.marker([marker.lat, marker.lng])
+            .addTo(map)
+            .bindTooltip(marker.name, {
+                permanent: false,
+                direction: 'top',
+                opacity: 0.7
+            });
+    });
+
+
+
+});
 const textprint="I'm passionate in making experiences that are enjoyable";
 let index1=0;
 
@@ -46,34 +72,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-//the world map hover state
- 
-document.addEventListener('DOMContentLoaded',function(){
-    var map=L.map('map').setView ([40.728,-74.0060],4);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-    var markers=[
-        {lat:40.4259,lng:-86.9081,name: "West Lafayette"},
-        {lat:37.3382,lng:-121.8863,name:"San Jose"},
-        {lat:9.9312, lng:76.2673,name:"Kochi"},
-        {lat: 12.9716, lng:77.5946,name:"Bangalore"},
-        {lat: 41.8781, lng: -87.6298, name: "Chicago"}
-
-    ];
-    markers.forEach(function(marker) {
-        L.marker([marker.lat, marker.lng])
-            .addTo(map)
-            .bindTooltip(marker.name, {
-                permanent: false,
-                direction: 'top',
-                opacity: 0.7
-            });
-    });
-
-
-
-});
 
 
 document.addEventListener("DOMContentLoaded",()=>{
