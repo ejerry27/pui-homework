@@ -4,6 +4,9 @@ padding: 8px 12px;
 
     
 }
+#navbarwhole  {
+    background-color:rgba(224, 239, 222, 1);
+}
 #nav-item{
     color: black;
     font-size: 22px;
