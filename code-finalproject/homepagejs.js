@@ -77,19 +77,20 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener("DOMContentLoaded",()=>{
 
 // for the slide animation
-    const images=["../code-finalproject/assets-finalproject/cakelayers.png",
-        "../code-finalproject/assets-finalproject/cakelayers.png"
+    const images=["../code-finalproject/assets-finalproject/caketwolayer.png",
+        "../code-finalproject/assets-finalproject/cakethreelayer.png"
 
     ];
 
     const textcontents=[
+       
         {
-            title:"UX Research",
-            description:'UX Research would be considered as my foundation in UX as I did my first internship in UX Research and I tend to do research for most of my projects'
+            title:"Product Design",
+            description:'Product Design is where I`m next expereienced with, I challenged myself to take up more designing tasks within class sponsored projects and I also did a product design internship where I learned extensively about working with design systems'
         },
         {
             title:"Graphic Design",
-            description:'I was a web development intern where I designed lots of graphics for Purdue'
+            description:'As the cherry on top, I was a web development intern where I designed lots of graphics for Purdue. This was towards the end of my undergrad where I have designed a few graphics for Purdue'
 
         }
     ];
