@@ -1,7 +1,11 @@
 #navbar {
 list-style: none;
 padding: 8px 12px;
+
     
+}
+#nav-item{
+    color: purple;
 }
 
 .display-4{
