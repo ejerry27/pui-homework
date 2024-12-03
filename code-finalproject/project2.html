@@ -11,27 +11,28 @@
 
     <body>
     <!-- nav bar -->
-        <nav class="navbar navbar-expand-sm bg-light navbar-light">
-            <div class ="container">
-                <a class="navbar-brand" >
-                    <img src="../code-finalproject/assets-finalproject/logo.png" width="50" height="50" class="d-inline-block align-top ">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav ms-auto" >
-                        <li class="nav-item">
-                            <a class="nav-link" href="../code-finalproject/homepage.html">Home</a>
-                    
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../code-finalproject/projectspage.html">Projects</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <div class ="container">
+            <a class="navbar-brand" >
+                <img src="../code-finalproject/assets-finalproject/logo.png" width="50" height="50" class="d-inline-block align-top ">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto" >
+                    <li class="nav-item">
+                        <a class="nav-link"id='nav-item' href="../code-finalproject/homepage.html">Home</a>
+                
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id='nav-item'href="../code-finalproject/projectspage.html">Projects</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+    
         <div class ="container">
             <div class="row-justify-content-center">
                 <h1>Purdue Supplemental Instruction</h1>
@@ -63,7 +64,7 @@
         <!-- my role animation -->
         <div class="container">
             <div class="row-justify-content-start">
-                <h2> My Role </h2>
+                <h2 id="headerproject"> My Role </h2>
             </div>
         </div>
         <div class="container" id="rolebox">
@@ -78,7 +79,7 @@
                             Usability Testing
                     </div>
                 </div>
-                <div class="col--md-4 mb-3" >
+                <div class="col-md-4 mb-3" >
                     <div class="card p-3 border text-center ">
                         Interviews
                         
@@ -131,9 +132,10 @@
         <!-- deliverables with animation -->
         <div class="container">
             <div class="row-justify-content-start">
-                <h2>Our deliverables</h2>
+                <h2 id="headerproject">Our deliverables</h2>
             </div>
         </div>
+    
         <div class="container">
             <div class="row justify-content-center" id="rolebox">
                 <div class="col-md-6 mb-3" id="deliverablesp2">
@@ -153,14 +155,14 @@
     <!-- interviews -->
         <div class="container">
             <div class="row-justify-content-start">
-                <h2>Interviews</h2>
+                <h2 id="headerproject">Interviews</h2>
             </div>
         </div>
         <div class="container">
             <div class ="row">
                 <div class="col-md-6">
                     <h5>Goal</h5>
-                    <p> to understand what is working, not working, and what could be improved/discontinued in the improved version. </p>
+                    <p> To understand what is working, not working, and what could be improved/discontinued in the improved version. </p>
                     <h5>Approach</h5>
                     <p>I conducted around 8 interviews. This was a mix of students, SI leaders, and staff at the Academic Success Center. Supplemental instruction is one of the services provided by the Academic Success Center. 
                     </p>
@@ -197,14 +199,14 @@
 
         <div class="container">
             <div class="row-justify-content-start">
-                <h2>Secondary Research </h2>
+                <h2 id="headerproject">Secondary Research </h2>
             </div>
         </div>
         <div class="container">
             <div class ="row">
                 <div class="col-12">
                     <h5>Goal</h5>
-                    <p>We looked into several articles that gave us an insight into office hours and its structure, how it benefits the students and doesn't </p>
+                    <p>I looked into several articles that gave me an insight into office hours and its structure, how it benefits the students and doesn't </p>
                 </div>
             </div>
             <div class="row-justify-content-start">
@@ -229,31 +231,58 @@
         </div>
         <div class="container">
             <div class="row-justify-content-start">
-                <h2>Ideation </h2>
+                <h2 id="headerproject">Ideation </h2>
             </div>
         </div>
         <div class="container">
             <div class ="row">
-                <div class="col-6">
+                <div class="col-12">
                     <h5>Goal</h5>
-                    <p>After evaluating design opportunities within our project space, we moved onto ideating possible solutions, in the form of sketches, prompts, workflows, and mapping.</p>
-
-                </div>
-                <div class="col-6">
-                    <img src=""class="img-fluid" alt="An image with sketches of scheduling an office hour system ">
+                    <p>After evaluating design opportunities within my project space, I moved onto ideating possible solutions, in the form of sketches, prompts, workflows, and mapping.</p>
 
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row-justify-content-start">
-                <h2>Prototypes </h2>
+            <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <img src="../code-finalproject/assets-finalproject/Cardstyle.png"class="img-fluid" alt="sketch of SI system and this sketch is called the card style ">
+
+                    <p id="Ideationstyle">Card Style</p>
+
+                </div>
+                <br>
+                <div class="col-12 col-md-6 ">
+                    <img src="../code-finalproject/assets-finalproject/tableSI.png"class="img-fluid" alt="sketch of SI system and this sketch is called the table style ">
+                    <p id="Ideationstyle">Table view</p>
+                </div>
             </div>
         </div>
+        <br>
 
         <div class="container">
             <div class="row-justify-content-start">
-                <h2>Testing </h2>
+                <h2 id="headerproject">Prototypes </h2>
+                <p>These are the screens that I created after the ideation phase</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <img src="../code-finalproject/assets-finalproject/table-prototype.png"class="img-fluid" alt="a prototype of the table sketch of SI system ">
+                    <p id="Ideationstyle">Table Prototype</p>
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <img src="../code-finalproject/assets-finalproject/card-prtotype.png"class="img-fluid" alt="a prototype of the table sketch of SI system ">
+                    <p id="Ideationstyle">Card Prototype</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row-justify-content-start">
+                <h2 id="headerproject">Testing </h2>
             </div>
         </div>
         <div class="container">

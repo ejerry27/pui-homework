@@ -9,7 +9,7 @@ padding: 8px 12px;
 }
 #nav-item{
     color: black;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     
 }
@@ -335,4 +335,9 @@ padding: 8px 12px;
 } 
 
 /* project2 */
-
+#Ideationstyle{
+    text-align: center;
+}
+#headerproject{
+    color:darkolivegreen
+}
