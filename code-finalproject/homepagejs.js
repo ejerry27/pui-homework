@@ -78,7 +78,9 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 // for the slide animation
     const images=["../code-finalproject/assets-finalproject/caketwolayer.png",
-        "../code-finalproject/assets-finalproject/cakethreelayer.png"
+        "../code-finalproject/assets-finalproject/cakethreelayer.png",
+        "../code-finalproject/assets-finalproject/single_layer_of_chocolate_cake_with_rasberries_on_top-removebg-preview.png"
+
 
     ];
 
@@ -92,7 +94,13 @@ document.addEventListener("DOMContentLoaded",()=>{
             title:"Graphic Design",
             description:'As the cherry on top, I was a web development intern where I designed lots of graphics for Purdue. This was towards the end of my undergrad where I have designed a few graphics for Purdue'
 
+        },
+        {
+            title:"UX Research",
+            description:'UX Research would be considered as my foundation in UX as I did my first internship in UX Research and I tend to do research for most of my projects'
+
         }
+
     ];
 
 
@@ -107,21 +115,21 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     //updating
     const updateContent= (index) =>{
-        imagesElement.style.transform="scale(1.2)";
+        // imagesElement.style.transform="scale(1.2)";
         setTimeout(()=>{
             imagesElement.src=images[index];
-            imagesElement.style.transform="scale(1)";
+            // imagesElement.style.transform="scale(1)";
         }, 200);
 
         textcontslide.style.opacity=0;
-        textcontslide.style.transform="translateY(20px)";
+        // textcontslide.style.transform="translateY(20px)";
         setTimeout(()=>{
             textcontslide.innerHTML=`
             <h3>${textcontents[index].title}</h3>
             <p>${textcontents[index].description}</p>
             `;
             textcontslide.style.opacity=1;
-            textcontslide.style.transform="translateY(0)";
+            // textcontslide.style.transform="translateY(0)";
         }, 200);
 
 
