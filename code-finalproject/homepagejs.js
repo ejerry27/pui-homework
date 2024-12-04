@@ -1,11 +1,13 @@
 
 
-// the sentence animation
+// map javascript
 document.addEventListener('DOMContentLoaded',function(){
     var map=L.map('map').setView ([40.728,-74.0060],4);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        // displaying the library
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
+    // the place markers 
     var markers=[
         {lat:40.4259,lng:-86.9081,name: "West Lafayette"},
         {lat:37.3382,lng:-121.8863,name:"San Jose"},
@@ -14,6 +16,7 @@ document.addEventListener('DOMContentLoaded',function(){
         {lat: 41.8781, lng: -87.6298, name: "Chicago"}
 
     ];
+    // adding to the map
     markers.forEach(function(marker) {
         L.marker([marker.lat, marker.lng])
             .addTo(map)
@@ -29,7 +32,7 @@ document.addEventListener('DOMContentLoaded',function(){
 });
 const textprint="I'm passionate in making experiences that are enjoyable";
 let index1=0;
-
+// function to type the animated line
 
 function typeText(){
     const typingsentence=document.getElementById('animatedline1');
@@ -41,7 +44,7 @@ function typeText(){
    
 }
 typeText();
-
+// addEventlistener for the animated line
 document.addEventListener('DOMContentLoaded', function() {
     const typingsentence = document.getElementById('animatedline1');
     if (typingsentence) {
@@ -62,7 +65,7 @@ function typeTextpart2(){
    
 }
 typeTextpart2();
-
+// animating the line of code for the homepage
 document.addEventListener('DOMContentLoaded', function() {
     const typingsentence2 = document.getElementById('animatedline2');
     if (typingsentence2) {
@@ -90,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
           section.style.display = 'none';
         });
 
-        // Show the targeted section
+        // Show the targeted section which is the link that is clicked 
         const targetId = this.getAttribute('data-target');
         console.log("Target ID:", targetId);
         const targetSection = document.getElementById(targetId);
@@ -105,79 +108,3 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
-// document.addEventListener("DOMContentLoaded",()=>{
-
-// // for the slide animation
-//     const images=["../code-finalproject/assets-finalproject/caketwolayer.png",
-//         "../code-finalproject/assets-finalproject/cakethreelayer.png",
-//         "../code-finalproject/assets-finalproject/single_layer_of_chocolate_cake_with_rasberries_on_top-removebg-preview.png"
-
-
-//     ];
-
-//     const textcontents=[
-       
-//         {
-//             title:"Product Design",
-//             description:'Product Design is where I`m next expereienced with, I challenged myself to take up more designing tasks within class sponsored projects and I also did a product design internship where I learned extensively about working with design systems'
-//         },
-//         {
-//             title:"Graphic Design",
-//             description:'As the cherry on top, I was a web development intern where I designed lots of graphics for Purdue. This was towards the end of my undergrad where I have designed a few graphics for Purdue'
-
-//         },
-//         {
-//             title:"UX Research",
-//             description:'UX Research would be considered as my foundation in UX as I did my first internship in UX Research and I tend to do research for most of my projects'
-
-//         }
-
-//     ];
-
-
-//     //get the elements from the html file 
-
-//     const imagesElement=document.getElementById('imageslidebox');
-//     const textcontslide=document.getElementById('text-content');
-//     const uparrow=document.getElementById('up-arrow');
-//     const downarrow=document.getElementById('down-arrow');
-//     //index
-//     let currentIndexSlide=0;
-
-//     //updating
-//     const updateContent= (index) =>{
-//         // imagesElement.style.transform="scale(1.2)";
-//         setTimeout(()=>{
-//             imagesElement.src=images[index];
-//             // imagesElement.style.transform="scale(1)";
-//         }, 200);
-
-//         textcontslide.style.opacity=0;
-//         // textcontslide.style.transform="translateY(20px)";
-//         setTimeout(()=>{
-//             textcontslide.innerHTML=`
-//             <h3>${textcontents[index].title}</h3>
-//             <p>${textcontents[index].description}</p>
-//             `;
-//             textcontslide.style.opacity=1;
-//             // textcontslide.style.transform="translateY(0)";
-//         }, 200);
-
-
-
-
-//     };
-
-//     //event listeners
-//     uparrow.addEventListener("click",()=>{
-//         currentIndexSlide=(currentIndexSlide-1+images.length)%images.length;
-//         updateContent(currentIndexSlide);
-
-//     });
-//     downarrow.addEventListener("click",()=>{
-//         currentIndexSlide=(currentIndexSlide+1)%images.length;
-//         updateContent(currentIndexSlide);
-//     });
-    
-
-// });
