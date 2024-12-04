@@ -101,6 +101,15 @@ Document the usage logs (prompts and chat history links) for the GenAI tools you
 
 
 
+FP3 - Final Project Check-in
+Document the changes and progress of your project. How have you followed or changed your implementation & GenAI use plan and why? Remember to commit your code to save your progress.
+
+I made progress on my project, I finished up coding the HTML pages for my portfolio, I understood how many pages I needed. I realized that I needed to follow the same structure with pages that showcase my work. I made my pages reponsive which got me ahead of schedule
+
+Implementation Plan Updates
+Staying on track, I finished the basic structure of most pages and made them responsive. This week I want to focus on getting animations in my portfolio. This is going to be a difficult part in my project as I need to learn libraries and ensure that I have a basic understanding of it before I dive deep into coding it 
+Generative AI Use Plan Updates
+I have beenusing ChatGpt to understand how responsiveness works and how bootstrap can be helpful in this situation 
 
 
 # **FP2 \- Evaluation of the Final project**
