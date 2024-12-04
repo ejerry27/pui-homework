@@ -5,12 +5,17 @@
 
 ## Part 1: Website Description
 
-Describe your website (300 words).
 
 * What is the purpose of your website?   
+My project is about my personal portfolio and making it more about who I am as a person. The purpose of this website is to showcase my work and me as a aperson. 
+
 * Who is the target audience?  
+Target audience will be those who are interested to know more about me in a digtial manner, recruiters and potential employers
 * What information do you convey with your website?   
+I convey about my experience in UX and two projects that demonstrate the knowledge that I have gained through my work
 * How is it interesting and engaging? 
+It is interesting as I have animated lines with typing effect, I use cakes to symbolize my work experience and users can interact with this. I used a library for a map feature in my homepage. Project page is like a recipe catalog where there is a way to get to each of the projects. They are like yellow folders and a pop up box will appear which is a short overview of the project.
+In each project specific pages, there are multiple animations for like my role and my deliverables
 
 ## Part 2: User Interaction
 
@@ -23,11 +28,24 @@ How a user would interact with your website? For each step, briefly but clearly 
 
 Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
 
-1. Name of tool1  
+1. Leaflet API
    * Why did you choose to use it over other alternatives? (2 sentences max)  
+   It was an easy to use library and most search engines recommended this. 
    * How you used it? (2 sentences max)  
+   I used it to show where I have lived over the years to show how it makes me adaptable as a person. There is a map with all the hover pins of places that I have been, I implemented this through javascript 
    * What does it add to your website? (2 sentences max)  
-2. Name of tool2
+   Adds interaction and engaging content to my website
+2. Anime JS library 
+  * This was an easy to use and intuitive library, it had the animations that I needed
+  * I used this by adding animations to my project page (slide in effects and such). it is called the easing animation and more specifically used the easeOutQuad
+  * This adds animation effects to my page and makes it more engaging
+  
+3. Bootstrap Library
+* For responsiveness, I used bootstrap. I chose this because I have previous experience using this and it seemed to be pretty straightforward
+* I used it for all my pages to get responsiveness, followed the grid method and adding how much should each section take up with regards to space 
+ * This makes it easier to view this website across multiple sized devices
+
+
 
 ## Part 4: Design Iteration
 
@@ -35,7 +53,10 @@ Describe how you iterated on your prototypes, if at all, including any changes y
 
 ## Part 5: Implementation Challenge
 
-What challenges did you experience in implementing your website? (2-4 sentences max)
+Sometimes, I felt like what I prototyped is hard to code, then I made another version where I could code it properly. 
+In the Homepage, I was going to intially have only a certain words be typed out but I chose to animate the whole sentence instead
+In the project page, I was intially going to add mutiple folders showing all the projects and they would be on top of each other but I chose to not go down this path as there were too many projects if I had to choose that instead I went with two projects and they were displayed one after the other.
+I changed the images for the cake and made it more interactive in my code so that the users can interact with it
 
 ## Part 6: Generative AI Use and Reflection
 
