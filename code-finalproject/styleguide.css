@@ -1,7 +1,8 @@
+/* nav bar */
+
 #navbar {
 list-style: none;
 padding: 8px 12px;
-
     
 }
 #navbarwhole  {
@@ -13,30 +14,23 @@ padding: 8px 12px;
     font-weight: bold;
     
 }
+/* the hero line that says my name */
 
 .display-4{
     font-size: 4rem;
-    color:#333;
-    background: #fff;
-    mix-blend-mode: multiply;
     text-transform: uppercase;
-    text-align: left;
-    font-weight: bold
+    font-weight: bold;
+   
 }
-
-.container-text-cont{
-    position: relative;
-    z-index: 1;
-    transition: transform 0.05s ease-out;
-
-}
+/* map css details for the device size to ensure responsiveness */
 @media (max-width: 768px) {
     #map {
-        height: 300px; /* Reduce height for smaller screens */
+        /* small screen */
+        height: 300px
     }
 
     .hover-headline {
-        font-size: 1.2rem; /* Smaller font size for headlines on phones */
+        font-size: 1.2rem;
         margin-bottom: 10px;
     }
 }
@@ -45,118 +39,52 @@ padding: 8px 12px;
     width: 100%;
 } 
 
-.arrow-list{
-    list-style: none;
-    padding-left: 0;
-
-}
-
-.arrow-list li{
-    position: relative;
-}
-
-.arrow{
-    width:0;
-    height:0;
-    border-left: 10px solid transparent;
-    border-right:10px solid transparent;
-    border-top: 20px solid #007bff;
-    position: relative;
-    left: 0;
-    transition: left 1s ease-in-out;
-}
-.arrow.move{
-    left: 200px;
-}
 #mapcontainer{
     background-color:rgba(224, 239, 222, 1) ;
     height: 600px;
 }
+/* footer details */
 .footer-homepage{
     background-color: rgba(224, 239, 222, 1);
 }
-#section2-homepage{
+/* #section2-homepage{
     background-color: rgba(224, 239, 222, 1);
-}
+} */
 .rowforspace{
     height: 200px;
 }
+/* image container  */
+.image-list-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* list of experinces */
+.experiencelist a{
+  
+    flex: 1;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 
+}
+.experiencelist a:hover{
+    text-decoration: underline;
+}
+/* section css */
+.section{
+    display: none;
+    padding: 50px 20px;
 
-/* slide animation */
-    .body-split{
-        margin: 0;
-        height: 100vh;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #f4f4f4;
-
-    }
-    .split-container-homepage{
-        width: 100%;
-        /* height: 100vh; */
-        display: flex;
-        flex-wrap: nowrap;
-    }
-    .image-slide-homepage{
-        flex:1;
-        position: relative;
-        overflow: hidden;
-
-    }
-    .image-slide-homepage img{
-        width:90%;
-        height: 100%;
-        /* object-fit: cover; */
-        transition: transform 0.5s ease;
-    }
-    #imageslidebox{
-        max-width: 500px;
-    }
-
-    .text-slide{
-        flex: 1;
-        background-color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-    }
-    .text-content-slide{
-        transition: transform 0.5s ease, opacity 0.5s ease ;
-    }
-    .arrows-homepage{
-        position:relative;
-        bottom: 10px;
-        right: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .arrows-homepage button{
-        border: none;
-        background:#007bff;
-        color: #ffffff;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        /* transition: background 0.3s ease; */
-    }
-    .arrows-homepage button:hover{
-        background: #0056b3;
-    }
-
+    margin: 10px 0;
+}
 /* projects page */
+
+/* pop up text for the project page  */
 #popup-text{
     display: none;
     position:absolute;
@@ -188,30 +116,7 @@ padding: 8px 12px;
     max-width: 90%;
     white-space: normal;
 }
-.row-section1-project, .row-section2-project{
-    display: block;
-
-}
-
-.row-section1-project:hover #popup-text{
-    display: grid;
-}
-.row-section2-project:hover #popup-text2{
-    display: grid;
-}
-#h6label{
-    background-color: black;
-    color: white;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 5px;
-    display: inline-block;
-    font-size: 12px;
-}
-
-    
-
-
+/* the learnmore button */
 .learnmorebutton{
     padding: 10px 20px;
     font-size: 16px;
@@ -235,19 +140,46 @@ padding: 8px 12px;
     transition: all 0.3s ease;
     
 }
+/* effects on learn more button */
 .learnmorebutton:hover{
     transform: scale(1.1);
 } 
 .learnmorebutton2:hover{
     transform: scale(1.1);
 } 
+/* displaying the popup text */
+.row-section1-project, .row-section2-project{
+    display: block;
+
+}
+
+.row-section1-project:hover #popup-text{
+    display: grid;
+}
+.row-section2-project:hover #popup-text2{
+    display: grid;
+}
+#h6label{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* adding mobile screen responsiveness */
 @media(max-width: 576px) {
     #popup-text,
     #popup-text2 {
-        font-size: 12px; /* Smaller text on mobile */
-        padding: 15px; /* Adjust padding */
-        bottom: auto; /* Remove strict positioning */
-        top: 10%; /* Position near the top */
+        /* smaller text */
+        font-size: 12px; 
+        /* adding padding */
+        padding: 15px;
+        bottom: auto; 
+        /* position from the top */
+        top: 10%; 
         left: 50%;
         transform: translateX(-50%);
     }
@@ -271,7 +203,7 @@ padding: 8px 12px;
 #goal-section{
     background-color: rgba(224, 239, 222, 1);
 }
-
+/* css for roles in project */
 #rolebox{
     padding:20px;
     border: 2px dashed;
@@ -320,6 +252,7 @@ padding: 8px 12px;
     font-size: 1rem;
     color: black;
 }
+/* deliverables box */
 #deliverablesp1{
     padding:20px;
     border: 2px dashed;
@@ -333,7 +266,7 @@ padding: 8px 12px;
    background-color: rgba(224, 239, 222, 1);
    height: 200px;
 }
-
+/* card style for the animation */
 .card{
     opacity: 0;
     transform: translateY(50px);
