@@ -56,11 +56,18 @@ Describe how you iterated on your prototypes, if at all, including any changes y
 Sometimes, I felt like what I prototyped is hard to code, then I made another version where I could code it properly. 
 In the Homepage, I was going to intially have only a certain words be typed out but I chose to animate the whole sentence instead
 In the project page, I was intially going to add mutiple folders showing all the projects and they would be on top of each other but I chose to not go down this path as there were too many projects if I had to choose that instead I went with two projects and they were displayed one after the other.
-I changed the images for the cake and made it more interactive in my code so that the users can interact with it
+I changed the images for the cake and made it more interactive in my code so that the users can interact with it.
+For the each specific project page, I chose to add animations in the pages, I didnt have this before in my prototype. I thought this would be a good way to add more interactions in my portfolio.
+
 
 ## Part 6: Generative AI Use and Reflection
 
 Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
+I used ChatGPT and perplexity for my project. I used this in this for learning purposes. More about trying to understand what each thing in my code does. I haven't learned about libraries before so this was a great resource. I learned about how these can be implemented and how they function within pages. I also learned about Bootstrap through chatGPT, it helped me understand how it works and the specifics for mobile responsiveness as well. 
+I fact checked certain things what chatCPT gave me in this platform. I was able to learn more in this platform too. Both of these platformsgave me suggestions for the libraries and API I could use that is fit to my project needs. It was also able tell me how exactly they work hand in hand. It gave me examples about the use cases as well, but they were not specific to my case. This was a good tool to brainstorm ideas, there were a few times where I felt stuck in my creative side and I asked for ideas and it sort of gave me guidance on what I could try 
+it gave me guidance on how to structure code and where its ideal to write comments this helped me to keep my document more maintainable and it helped me understand what some lines of code meant 
+
+
 
 Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
 
@@ -104,8 +111,8 @@ For the following aspects of your project, edit the corresponding table cell to 
 
 > Pros and cons of using GenAI tools
 * Pros
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1: Chat GPT. It will teach me things that I don't understand easily and give use cases for the same 
+  2. Tool2: Perplexity: This gives me more precise information along with links to the source so that I go look into information provided for further reading 
 * Cons
   1. Tool1: 
   2. Tool2:
@@ -117,6 +124,8 @@ Document the usage logs (prompts and chat history links) for the GenAI tools you
 
 1. [ChatGPT](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq) / [Gemini](https://support.google.com/gemini/answer/13743730?hl=en&co=GENIE.Platform%3DDesktop): share the anonymous link to all of your chat histories relevant to this project
 2. [GitHub Copilot (VSCode)](https://code.visualstudio.com/docs/copilot/copilot-chat#:~:text=You%20can%20export%20all%20prompts%20and%20responses%20for%20a%20chat%20session%20in%20a%20JSON%20file%20with%20the%20Chat%3A%20Export%20Session...%20command%20(workbench.action.chat.export)%20in%20the%20Command%20Palette.): export chat histories relevant to this project.
+1. https://chatgpt.com/share/6750e573-eb0c-8010-b05f-976285395dcd
+2. https://chatgpt.com/share/6750e5c7-925c-8010-9d74-7879306fc7e2
 
 ---
 
