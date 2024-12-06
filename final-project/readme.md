@@ -19,7 +19,6 @@ In each project specific pages, there are multiple animations for like my role a
 
 ## Part 2: User Interaction
 
-How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
 Homepage
 1. Interaction type. Scroll to the middle of the page with the cake. Click on UX Research, Product Design or Graphic Design. It will show the respective sections below the cake
 2. Click on the here word to go to the projects page
@@ -29,8 +28,8 @@ Homepage
 Projects Page
 1. Hover over each of the folders and a pop will appear. Click on the learn more button. 
 
-Project 1 and Project 2 page: Scroll through the pages and you will see animations for my role, deliverables secondary research.
-
+Project 1 and Project 2 page: Scroll through the pages and you will see animations for my role, deliverables secondary research. 
+Responsiveness:This prototype works well with a laptop screen and iphone SE 
 
 ## Part 3: External Tool
 
@@ -81,16 +80,7 @@ I fact checked certain things what chatGPT gave me in this platform. I was able 
 it gave me guidance on how to structure code and where its ideal to write comments this helped me to keep my document more maintainable and it helped me understand what some lines of code meant 
 
 
-
-Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
-
 ### Usage Experiences by Project Aspects
-
-Feel free to edit the column \_ (other?) or add more columns if there's any other aspect in your project you've used the GenAI tools for.
-
-For the following aspects of your project, edit the corresponding table cell to answer:
-- *Usage*: Whether you used / did not use this tool for the aspect. Enter [Yes/No]
-- *Productivity*: Give a rating on whether this tool makes your productivity for X aspect [1-Much Reduced, 2-Reduced, 3-Slightly Reduced, 4-Not Reduced nor Improved, 5-Slightly Improved, 6-Improved, 7-Much Improved].
 
 | Tool Name | Ratings | design | plan | write code | debug | \_ (other?) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -103,10 +93,10 @@ For the following aspects of your project, edit the corresponding table cell to 
 ### Usage Reflection
 
 > Impact on your design and plan 
-* It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
+* It matched my expectations and plan in [FP2](#generative-ai-use-plan) 
   1. Tool1: ChatGPT helped me understand how libraries worked
   2. Tool2: Perplexity also helped me understand how libraries worked and how animations worked
-* It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
+* It did not match my expectations and plan in [FP2](#generative-ai-use-plan) 
   1. Tool1: ChatGPT gave me more information than I needed. It would give me code when I ask for a conceptual question
   2. Tool2: ChatGPT also gave me recommendations for my style in the portfolio and I rejected it 
 * GenAI tool did/did not influence my final design and implementation plan because … For example, 
