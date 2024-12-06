@@ -132,21 +132,27 @@ I do not have my perplexity chat logs and some of my chatGPT logs. But this is w
 
 Appendix
 Homepage WAVE Summary and details
+<img width="1461" alt="homepage_summary" src="https://github.com/user-attachments/assets/edc514da-7675-47ef-a875-3a7ad3deeef7">
+<img width="1469" alt="homepage_details" src="https://github.com/user-attachments/assets/6624dcbc-dc03-42d2-abf2-583121b86eb1">
 
 
 
 Project Page WAVE Summary and Details
 
+<img width="1241" alt="projectspage_details" src="https://github.com/user-attachments/assets/7bd11a87-cd76-4154-b439-5a8fe573fd3c">
+<img width="1232" alt="projectspage_summary" src="https://github.com/user-attachments/assets/c5c36044-f9df-40a6-807c-ff3476a5b8f7">
 
 
 Project 1 WAVE Summary and Details
 
+<img width="1241" alt="project1_details" src="https://github.com/user-attachments/assets/0de05424-06ff-471f-ae6f-c0cff3aed571">
+<img width="1254" alt="project1_summary" src="https://github.com/user-attachments/assets/32ea0590-955b-413e-9196-0def92679f44">
 
 
 Project 2 WAVE Summary and Details
 
----
-
+<img width="1469" alt="project2_details" src="https://github.com/user-attachments/assets/244b304d-6237-4360-850a-00c1a5044cd0">
+<img width="1470" alt="project2_summary" src="https://github.com/user-attachments/assets/bcfbf43b-8939-4078-a970-38f796439038">
 
 
 FP3 - Final Project Check-in
