@@ -57,16 +57,16 @@ Describe what important external tool you used (JavaScript library, Web API, ani
 ## Part 4: Design Iteration
 Homepage
 I made the sentences to animate rather than singular words. I chose to show the cake metaphor and from class critique, I added interactions so it would provide a much cleaner look.
-I used a library fr the map as I was not able to use the map that I had drawn. Using this library was so much easier and it looked better once it was implemented onto the homepage
-Project Page
-I made it all a singular folder project so that it would be more realistic for me to implement this project. This way it was just two projects
-Project 1 and 2
+I used a library fr the map as I was not able to use the map that I had drawn. Using this library was so much easier and it looked better once it was implemented onto the homepage.
+ Project Page:
+I made it all a singular folder project so that it would be more realistic for me to implement this project. This way it was just two projects.
+Project 1 and 2:
 I added animations to the project 1 and 2 page as my prototypes did not have any and I wanted to make my pages more engaging and interactive
 
 ## Part 5: Implementation Challenge
 
 Sometimes, I felt like what I prototyped is hard to code, then I made another version where I could code it properly. 
-In the Homepage, I was going to intially have only a certain words be typed out but I chose to animate the whole sentence instead
+In the Homepage, I was going to intially have only a certain words be typed out but I chose to animate the whole sentence instead.
 In the project page, I was intially going to add mutiple folders showing all the projects and they would be on top of each other but I chose to not go down this path as there were too many projects if I had to choose that instead I went with two projects and they were displayed one after the other.
 I changed the images for the cake and made it more interactive in my code so that the users can interact with it.
 For the each specific project page, I chose to add animations in the pages, I didnt have this before in my prototype. I thought this would be a good way to add more interactions in my portfolio.
