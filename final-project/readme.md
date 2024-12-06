@@ -91,39 +91,39 @@ For the following aspects of your project, edit the corresponding table cell to 
 
 > Impact on your design and plan 
 * It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
+  1. Tool1: It helped me understand how libraries worked and how important can 
   2. Tool2:
 * It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
   1. Tool1: 
   2. Tool2:
 * GenAI tool did/did not influence my final design and implementation plan because … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1:  ChatGPT recommended styles for the css part and I didn't follow it because I wanted to follow my stucture with colors. It suggested ways I could make my website responsive but I was focused on using bootstrap so I referred to the Bootstrap website most times 
+  2. Tool 2: Perplexity: this helped me understand how things worked and gave me explainations to things I did not understand 
 
 > Use patterns
 * I accepted the generations when …  For example, 
-  1. Tool1: this tool once suggested … and I adjusted my design according to the suggestion because … 
-  2. Tool2: 
+  1. Tool1: ChatGPT gave me ideas to brainstorm with when it came to creativity of my portfolio
+  2. Tool2: I accepted ideas that it gave me on how to use libraaries for my website but I implemented it in my way
 * I critiqued/evaluated the generated suggestions by … For example, 
-  1. Tool1: this tool once suggested … but I modified/rejected the suggestion because … 
+  1. Tool1: Somestimes I thought that ChatGPT was not accurate all the time and I had to double check things. 
   2. Tool2: 
 
 
 > Pros and cons of using GenAI tools
 * Pros
-  1. Tool1: Chat GPT. It will teach me things that I don't understand easily and give use cases for the same 
+  1. Tool1: Chat GPT. It will help me understand a complex concept in very simple terms. Sometimes I find it hard to understand what I read on the internet and chatGPT breaks it down to simpler terms for me 
   2. Tool2: Perplexity: This gives me more precise information along with links to the source so that I go look into information provided for further reading 
 * Cons
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1: ChatGPT gives the code away too quickly even when I'm not asking for it. I might be asking conceptual things and somehow I get code as my response. I have come to a conclusion on not to fully rely on chatGPT for the code as I will not learn anything if I rely on chatGPT
+  2. Tool2: I haven't used Perplexity AI much to get any cons out of it. I used it rarely for the project 
 
 
 ### Usage Log
 
 Document the usage logs (prompts and chat history links) for the GenAI tools you used. Some tools may not have an easy way to share usage logs, just try your best! Some instructions for different tools:
 
-1. [ChatGPT](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq) / [Gemini](https://support.google.com/gemini/answer/13743730?hl=en&co=GENIE.Platform%3DDesktop): share the anonymous link to all of your chat histories relevant to this project
-2. [GitHub Copilot (VSCode)](https://code.visualstudio.com/docs/copilot/copilot-chat#:~:text=You%20can%20export%20all%20prompts%20and%20responses%20for%20a%20chat%20session%20in%20a%20JSON%20file%20with%20the%20Chat%3A%20Export%20Session...%20command%20(workbench.action.chat.export)%20in%20the%20Command%20Palette.): export chat histories relevant to this project.
+I do not have my perplexity chat logs and some of my chatGPT logs. But this is what I could find from the saved chats 
+
 1. https://chatgpt.com/share/6750e573-eb0c-8010-b05f-976285395dcd
 2. https://chatgpt.com/share/6750e5c7-925c-8010-9d74-7879306fc7e2
 
