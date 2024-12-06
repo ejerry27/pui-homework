@@ -131,7 +131,19 @@ I do not have my perplexity chat logs and some of my chatGPT logs. But this is w
 2. https://chatgpt.com/share/6750e5c7-925c-8010-9d74-7879306fc7e2
 
 Appendix
+Homepage WAVE Summary and details
 
+
+
+Project Page WAVE Summary and Details
+
+
+
+Project 1 WAVE Summary and Details
+
+
+
+Project 2 WAVE Summary and Details
 
 ---
 
