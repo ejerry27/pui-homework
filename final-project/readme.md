@@ -7,7 +7,7 @@
 
 
 * What is the purpose of your website?   
-My project is about my personal portfolio and making it more about who I am as a person. The purpose of this website is to showcase my work and me as a aperson. 
+My project is about my personal portfolio and making it more about who I am as a person. The purpose of this website is to showcase my work and me as a person. 
 
 * Who is the target audience?  
 Target audience will be those who are interested to know more about me in a digtial manner, recruiters and potential employers
@@ -75,7 +75,7 @@ For the each specific project page, I chose to add animations in the pages, I di
 ## Part 6: Generative AI Use and Reflection
 
 Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
-I used ChatGPT and perplexity for my project. I used this in this for learning purposes. More about trying to understand what each thing in my code does. I haven't learned about libraries before so this was a great resource. I learned about how these can be implemented and how they function within pages. I also learned about Bootstrap through chatGPT, it helped me understand how it works and the specifics for mobile responsiveness as well. 
+I used ChatGPT and perplexity for my project. I used this in this for learning purposes. More about trying to understand what each thing in my code does. I haven't learned about libraries before so this was a great resource. I learned about how these can be implemented and how they function within pages. I also learned about Bootstrap through chatGPT, it helped me understand how it works and the specifics for mobile responsiveness as well. I learned about different errors in my code and what those errors meant through these platforms
 I fact checked certain things what chatGPT gave me in this platform. I was able to learn more in this platform too. Both of these platformsgave me suggestions for the libraries and API I could use that is fit to my project needs. It was also able tell me how exactly they work hand in hand. It gave me examples about the use cases as well, but they were not specific to my case. This was a good tool to brainstorm ideas, there were a few times where I felt stuck in my creative side and I asked for ideas and it sort of gave me guidance on what I could try 
 it gave me guidance on how to structure code and where its ideal to write comments this helped me to keep my document more maintainable and it helped me understand what some lines of code meant 
 
@@ -86,7 +86,7 @@ it gave me guidance on how to structure code and where its ideal to write commen
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | ChatGPT | Usage | Yes| No | No | Yes | None |
 | ChatGPT| Productivity | 4 | 1| 1 |6 | n/a |
-| Perplexity| Usage | Yes | No | No | Yes | Yes/No |
+| Perplexity| Usage | Yes | No | No | Yes | none|
 | Tool2 | Productivity | 5 | 1 | 1 | 6| n/a |
 
 
