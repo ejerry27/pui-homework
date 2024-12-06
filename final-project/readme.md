@@ -130,7 +130,9 @@ I do not have my perplexity chat logs and some of my chatGPT logs. But this is w
 1. https://chatgpt.com/share/6750e573-eb0c-8010-b05f-976285395dcd
 2. https://chatgpt.com/share/6750e5c7-925c-8010-9d74-7879306fc7e2
 
-Appendix
+Appendix:
+
+
 Homepage WAVE Summary and details
 <img width="1461" alt="homepage_summary" src="https://github.com/user-attachments/assets/edc514da-7675-47ef-a875-3a7ad3deeef7">
 <img width="1469" alt="homepage_details" src="https://github.com/user-attachments/assets/6624dcbc-dc03-42d2-abf2-583121b86eb1">
