@@ -20,9 +20,17 @@ In each project specific pages, there are multiple animations for like my role a
 ## Part 2: User Interaction
 
 How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
+Homepage
+1. Interaction type. Scroll to the middle of the page with the cake. Click on UX Research, Product Design or Graphic Design. It will show the respective sections below the cake
+2. Click on the here word to go to the projects page
+2. Scroll to the map and hover over the pins on the map. This will show where I have lived in the past
+3. Nav Bar: click on either of the navbar items and it will lead to the respective pages
 
-1. Interaction type. Click on X on page Y / scroll on page X, etc.  
-2. 
+Projects Page
+1. Hover over each of the folders and a pop will appear. Click on the learn more button. 
+
+Project 1 and Project 2 page: Scroll through the pages and you will see animations for my role, deliverables secondary research.
+
 
 ## Part 3: External Tool
 
@@ -48,8 +56,13 @@ Describe what important external tool you used (JavaScript library, Web API, ani
 
 
 ## Part 4: Design Iteration
-
-Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
+Homepage
+I made the sentences to animate rather than singular words. I chose to show the cake metaphor and from class critique, I added interactions so it would provide a much cleaner look.
+I used a library fr the map as I was not able to use the map that I had drawn. Using this library was so much easier and it looked better once it was implemented onto the homepage
+Project Page
+I made it all a singular folder project so that it would be more realistic for me to implement this project. This way it was just two projects
+Project 1 and 2
+I added animations to the project 1 and 2 page as my prototypes did not have any and I wanted to make my pages more engaging and interactive
 
 ## Part 5: Implementation Challenge
 
@@ -64,7 +77,7 @@ For the each specific project page, I chose to add animations in the pages, I di
 
 Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
 I used ChatGPT and perplexity for my project. I used this in this for learning purposes. More about trying to understand what each thing in my code does. I haven't learned about libraries before so this was a great resource. I learned about how these can be implemented and how they function within pages. I also learned about Bootstrap through chatGPT, it helped me understand how it works and the specifics for mobile responsiveness as well. 
-I fact checked certain things what chatCPT gave me in this platform. I was able to learn more in this platform too. Both of these platformsgave me suggestions for the libraries and API I could use that is fit to my project needs. It was also able tell me how exactly they work hand in hand. It gave me examples about the use cases as well, but they were not specific to my case. This was a good tool to brainstorm ideas, there were a few times where I felt stuck in my creative side and I asked for ideas and it sort of gave me guidance on what I could try 
+I fact checked certain things what chatGPT gave me in this platform. I was able to learn more in this platform too. Both of these platformsgave me suggestions for the libraries and API I could use that is fit to my project needs. It was also able tell me how exactly they work hand in hand. It gave me examples about the use cases as well, but they were not specific to my case. This was a good tool to brainstorm ideas, there were a few times where I felt stuck in my creative side and I asked for ideas and it sort of gave me guidance on what I could try 
 it gave me guidance on how to structure code and where its ideal to write comments this helped me to keep my document more maintainable and it helped me understand what some lines of code meant 
 
 
@@ -81,29 +94,29 @@ For the following aspects of your project, edit the corresponding table cell to 
 
 | Tool Name | Ratings | design | plan | write code | debug | \_ (other?) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Tool1 | Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool1 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
-| Tool2| Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool2 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
+| ChatGPT | Usage | Yes| No | No | Yes | None |
+| ChatGPT| Productivity | 4 | 1| 1 |6 | n/a |
+| Perplexity| Usage | Yes | No | No | Yes | Yes/No |
+| Tool2 | Productivity | 5 | 1 | 1 | 6| n/a |
 
 
 ### Usage Reflection
 
 > Impact on your design and plan 
 * It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: It helped me understand how libraries worked and how important can 
-  2. Tool2:
+  1. Tool1: ChatGPT helped me understand how libraries worked
+  2. Tool2: Perplexity also helped me understand how libraries worked and how animations worked
 * It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1: ChatGPT gave me more information than I needed. It would give me code when I ask for a conceptual question
+  2. Tool2: ChatGPT also gave me recommendations for my style in the portfolio and I rejected it 
 * GenAI tool did/did not influence my final design and implementation plan because … For example, 
   1. Tool1:  ChatGPT recommended styles for the css part and I didn't follow it because I wanted to follow my stucture with colors. It suggested ways I could make my website responsive but I was focused on using bootstrap so I referred to the Bootstrap website most times 
   2. Tool 2: Perplexity: this helped me understand how things worked and gave me explainations to things I did not understand 
 
 > Use patterns
 * I accepted the generations when …  For example, 
-  1. Tool1: ChatGPT gave me ideas to brainstorm with when it came to creativity of my portfolio
-  2. Tool2: I accepted ideas that it gave me on how to use libraaries for my website but I implemented it in my way
+  1. Tool1: ChatGPT gave me ideas to brainstorm with when it came to creativity of my portfolio and also gave me advice on how to debug my code. I would tell GPT the error and it would give me more information about the error and what that meant.
+  2. Tool2: I accepted ideas that it gave me on how to use libraaries for my website but I implemented it in my way. It helped me understand what certain errors meant in my code 
 * I critiqued/evaluated the generated suggestions by … For example, 
   1. Tool1: Somestimes I thought that ChatGPT was not accurate all the time and I had to double check things. 
   2. Tool2: 
@@ -126,6 +139,9 @@ I do not have my perplexity chat logs and some of my chatGPT logs. But this is w
 
 1. https://chatgpt.com/share/6750e573-eb0c-8010-b05f-976285395dcd
 2. https://chatgpt.com/share/6750e5c7-925c-8010-9d74-7879306fc7e2
+
+Appendix
+
 
 ---
 
